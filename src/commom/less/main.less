@@ -1,0 +1,16 @@
+@import './icon.less';
+@import './mixin.less';
+@import './media.less';
+
+.clearfix {
+	zoom: 1;
+
+	&:after {
+		display: block;
+		content: ".";
+		height: 0;
+		line-height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+}
